@@ -1,5 +1,5 @@
 {
-  "bucketName": "aws-athena-query-results",
+  "bucketName": "20210614-aws-athena-query-results",
   "authPolicyName": "s3_amplify_0d867d89",
   "unauthPolicyName": "s3_amplify_0d867d89",
   "authRoleName": {
@@ -23,5 +23,5 @@
   "s3PermissionsGuestPublic": "DISALLOW",
   "s3PermissionsGuestUploads": "DISALLOW",
   "GuestAllowList": "DISALLOW",
-  "triggerFunction": "S3Trigger20d9f806"
+  "triggerFunction": "S3Trigger20210614"
 }

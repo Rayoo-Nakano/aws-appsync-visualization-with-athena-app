@@ -1,11 +1,11 @@
 {
-    "AppSyncApiName": "appsyncathenaviz",
-    "DynamoDBBillingMode": "PAY_PER_REQUEST",
-    "DynamoDBEnableServerSideEncryption": "false",
-    "AuthCognitoUserPoolId": {
-        "Fn::GetAtt": [
-            "authappsyncathenavizb9ef8f65",
-            "Outputs.UserPoolId"
-        ]
-    }
+  "AppSyncApiName": "appsyncathenaviz",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": "false",
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authappsyncathenavizb9ef8f65",
+      "Outputs.UserPoolId"
+    ]
+  }
 }

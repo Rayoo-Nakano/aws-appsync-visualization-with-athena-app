@@ -42,12 +42,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "initStartQuery",
+            "S3Trigger20210614",
             {
               "Fn::Join": [
                 "",
                 [
-                  "initStartQuery",
+                  "S3Trigger20210614",
                   "-",
                   {
                     "Ref": "env"
@@ -97,12 +97,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "appathlocalLambdaRolec5da873d",
+            "S3Trigger20210614LambdaRole20210614",
             {
               "Fn::Join": [
                 "",
                 [
-                  "appathlocalLambdaRolec5da873d",
+                  "S3Trigger20210614LambdaRole20210614",
                   "-",
                   {
                     "Ref": "env"

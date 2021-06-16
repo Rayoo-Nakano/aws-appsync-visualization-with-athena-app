@@ -71,17 +71,17 @@
         "triggerFunction": {
             "Type": "String"
         },
-        "functionS3Trigger20d9f806Arn": {
+        "functionS3Trigger20210614Arn": {
             "Type": "String",
-            "Default": "functionS3Trigger20d9f806Arn"
+            "Default": "functionS3Trigger20210614Arn"
         },
-        "functionS3Trigger20d9f806Name": {
+        "functionS3Trigger20210614Name": {
             "Type": "String",
-            "Default": "functionS3Trigger20d9f806Name"
+            "Default": "functionS3Trigger20210614Name"
         },
-        "functionS3Trigger20d9f806LambdaExecutionRole": {
+        "functionS3Trigger20210614LambdaExecutionRole": {
             "Type": "String",
-            "Default": "functionS3Trigger20d9f806LambdaExecutionRole"
+            "Default": "functionS3Trigger20210614LambdaExecutionRole"
         }
     },
     "Conditions": {
@@ -249,13 +249,13 @@
                         {
                             "Event": "s3:ObjectCreated:*",
                             "Function": {
-                                "Ref": "functionS3Trigger20d9f806Arn"
+                                "Ref": "functionS3Trigger20210614Arn"
                             }
                         },
                         {
                             "Event": "s3:ObjectRemoved:*",
                             "Function": {
-                                "Ref": "functionS3Trigger20d9f806Arn"
+                                "Ref": "functionS3Trigger20210614Arn"
                             }
                         }
                     ]
@@ -700,7 +700,7 @@
                 "PolicyName": "s3-trigger-lambda-execution-policy",
                 "Roles": [
                     {
-                        "Ref": "functionS3Trigger20d9f806LambdaExecutionRole"
+                        "Ref": "functionS3Trigger20210614LambdaExecutionRole"
                     }
                 ],
                 "PolicyDocument": {
@@ -738,7 +738,7 @@
             "Properties": {
                 "Action": "lambda:InvokeFunction",
                 "FunctionName": {
-                    "Ref": "functionS3Trigger20d9f806Name"
+                    "Ref": "functionS3Trigger20210614Name"
                 },
                 "Principal": "s3.amazonaws.com",
                 "SourceAccount": {

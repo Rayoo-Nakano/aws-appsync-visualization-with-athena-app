@@ -15,6 +15,7 @@ export const startQuery = /* GraphQL */ `
         key
       }
       createdAt
+      updatedAt
     }
   }
 `;
@@ -32,6 +33,7 @@ export const getAthenaOperation = /* GraphQL */ `
         key
       }
       createdAt
+      updatedAt
     }
   }
 `;
@@ -58,6 +60,7 @@ export const listAthenaOperations = /* GraphQL */ `
           key
         }
         createdAt
+        updatedAt
       }
       nextToken
     }
@@ -92,6 +95,7 @@ export const queryByOwner = /* GraphQL */ `
           key
         }
         createdAt
+        updatedAt
       }
       nextToken
     }

@@ -15,6 +15,7 @@ export const deleteAthenaOperation = /* GraphQL */ `
         key
       }
       createdAt
+      updatedAt
     }
   }
 `;
@@ -32,6 +33,7 @@ export const createAthenaOperation = /* GraphQL */ `
         key
       }
       createdAt
+      updatedAt
     }
   }
 `;
@@ -49,6 +51,7 @@ export const updateAthenaOperation = /* GraphQL */ `
         key
       }
       createdAt
+      updatedAt
     }
   }
 `;
