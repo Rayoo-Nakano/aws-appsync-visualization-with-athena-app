@@ -18,11 +18,11 @@
       "function": {
         "S3Trigger20210614": {
           "deploymentBucketName": "amplify-aws-appsync-with-athena-app-dev-232552-deployment",
-          "s3Key": "amplify-builds/S3Trigger20210614-63636a652b6d50676946-build.zip"
+          "s3Key": "amplify-builds/S3Trigger20210614-46316a7257704b484639-build.zip"
         },
         "initStartQuery": {
           "deploymentBucketName": "amplify-aws-appsync-with-athena-app-dev-232552-deployment",
-          "s3Key": "amplify-builds/initStartQuery-2b38483653576f6e434f-build.zip"
+          "s3Key": "amplify-builds/initStartQuery-67696939707a75774c63-build.zip"
         }
       }
     }
